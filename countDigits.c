@@ -23,7 +23,7 @@ int main() {
       temp = temp/10;
       count++;
     }
-
+    //This is a change
     //Allocate array to size of count digits
     digits = (int*)malloc(count+1*sizeof(int));
 
