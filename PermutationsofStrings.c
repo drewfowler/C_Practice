@@ -9,6 +9,9 @@ int next_permutation(int n, char **s)
 	* Return 0 when there is no next permutation and 1 otherwise
 	* Modify array s to its next permutation
 	*/
+  s++;
+  return 1;
+
 }
 
 int main()
