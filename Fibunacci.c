@@ -14,9 +14,9 @@ int main()
 
   for(int i=0;i<numTerms;i++)
   {
-    printf("%d\n",term3);
-    term3 = term1 + term2;
-    term2 = term3;
+    printf("%d\n",term1);
+    term3 = term2 +term1;
     term1 = term2;
+    term2 = term3;
   }
 }

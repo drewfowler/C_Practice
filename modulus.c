@@ -5,7 +5,7 @@
 
 int main()
 {
-  double dc = 65;
-  double per = dc/100;
-  printf("%f\n",per );
+  int num = 8;
+  int m = 3;
+  printf("%d\n",num % m );
 }
