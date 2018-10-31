@@ -3,9 +3,11 @@
 #include <math.h>
 #include <stdlib.h>
 
+#define rev 40;
+
 int main()
 {
-  double dc = 65;
-  double per = dc/100;
-  printf("%f\n",per );
+  int test = 3549;
+  printf("%d\n",sizeof(test) );
+
 }
